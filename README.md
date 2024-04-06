@@ -16,9 +16,15 @@ End the program
 ## Program:
 ## DEVELOPED BY:LOGA MITHRA R
 ## REGISTER NUMBER:212223100027
-
+```
+import numpy as np
+A=np.array([[1,3],[2,5]])
+B=np.array([5,-3])
+le=np.linalg.solve(A,B)
+print(le)
+```
 ## Output:
-
+![output](/maths1.png)
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
